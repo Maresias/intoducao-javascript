@@ -8,7 +8,7 @@ body{
 }
 
 header{
-	background-color: #333;
+	background-color: #45AFE6;
 	height: 70px;
 	color: #FFF;
 	margin-bottom: 1em;
@@ -78,10 +78,56 @@ th{
 	background-color: #EEE;
 }
 
+.caixa-formulario{
+	max-width: 940px;
+	min-width: 300px;
+	margin: auto;
+	padding: 20px;
+}
+
+
+form > div{
+	display: inline-block;
+	padding: 10px 0 ;
+}
+input{
+	padding: 7px;
+	margin-bottom: 10px;
+}
+
 label{
-	color: #555;
-	display: block;
-	margin-bottom: .2em;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.div-nome{
+	width: 100%;
+}
+
+#nome{
+	width: 85%;
+}
+
+#peso{
+	margin-right: 10px;
+}
+
+#altura{
+	margin-right: 10px;
+}
+
+.div-button{
+	width: 100%;
+}
+
+.envia{
+	background-color: #45AFE6;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	padding: 15px;
+	font-size: 1.2em;
+	color: white;
 }
 
 .campo{
@@ -102,35 +148,6 @@ label{
 	width: 32%;
 	display: inline-block;
 	padding: 10px 0px;
-}
-
-button{
-	padding: .5em 2em;
-	border: 0;
-	border-bottom: 3px solid;
-	font-size: 1.2em;
-	cursor: pointer;
-	margin: 0;
-	margin-top: -3px;
-	color: #fff;
-	background-color:#0c8cd3;
-	border-color: #04324c;
-	width: 20%;
-    display: block;
-    clear: both;
-    margin: 10px 0px;
-
-}
-
-button:active{
-	margin-top:0px;
-	border: 0;
-}
-
-button[disabled=disabled], button:disabled {
-    background-color: gray;
-	border-color: darkgray;
-
 }
 
 .adicionar-paciente{

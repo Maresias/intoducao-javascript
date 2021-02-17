@@ -33,6 +33,11 @@ for(var inicio = 0; inicio < Pacientes.length; inicio += 1){
 
 }
 
+var adicionar = document.querySelector('.envia');
 
+adicionar.addEventListener('click', function(event){
+    event.preventDefault();
+    console.log("Olá deu certo, até agora");
+});
 
 
