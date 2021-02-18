@@ -8,7 +8,7 @@ adicionar.addEventListener('click', function(event){
 
     var tabela = document.querySelector('#tabela-pacientes');
 
-     var paciente = obterDadosDoForm(formulario);
+    var paciente = obterDadosDoForm(formulario);
    
     var nomeTd = document.createElement('td');
     var pesoTd = document.createElement('td');
@@ -16,11 +16,11 @@ adicionar.addEventListener('click', function(event){
     var gorduraTd = document.createElement('td');
     var imcTd = document.createElement('td')
 
-    nomeTd.textContent = paciente[0];
-    pesoTd.textContent = paciente[1];
-    alturaTd.textContent = paciente[2];
-    gorduraTd.textContent = paciente[3];
-    imcTd.textContent = paciente[4];
+    nomeTd.textContent = paciente.nome;
+    pesoTd.textContent = paciente.peso;
+    alturaTd.textContent = paciente.altura;
+    gorduraTd.textContent = paciente.gordura;
+    imcTd.textContent = paciente.imc;
 
     pacienteTr.appendChild(nomeTd);
     pacienteTr.appendChild(pesoTd);
