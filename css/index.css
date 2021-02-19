@@ -161,3 +161,9 @@ label{
 .paciente-invalido{
 	background-color: lightcoral;
 }
+
+.excluindo{
+	background-color: rgba(231, 8, 53, 0.932);
+	transition: 0.7s;
+	opacity: 0;
+}
