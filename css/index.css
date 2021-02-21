@@ -167,3 +167,7 @@ label{
 	transition: 0.7s;
 	opacity: 0;
 }
+
+.invisivel{
+	display: none;
+}
