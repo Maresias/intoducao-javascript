@@ -34,6 +34,12 @@ adicionar.addEventListener('click', function(event){
 
 });
 
+function adicionarPacientesNaTabela(paciente){
+   var paci = montaTr(paciente)
+   var tabela = document.querySelector('#tabela-pacientes');
+   tabela.appendChild(paci);
+}
+
 
 function mensagemsDeErro(dados){
     var ul = document.querySelector("#mensagens-erros");
